@@ -1,0 +1,12 @@
+/.DS_Store
+/.ipynb_checkpoints
+/API檢查.txt
+/config.ini
+/ngrok.exe
+/pip
+/requirements.txt
+/rich-menu.png
+/static
+/templates
+/__pycache__
+/樣式.pynb
