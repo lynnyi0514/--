@@ -18,11 +18,8 @@ from urllib import parse
 app = Flask(__name__, static_url_path='/static')
 UPLOAD_FOLDER = 'static'
 ALLOWED_EXTENSIONS = set(['pdf', 'png', 'jpg', 'jpeg', 'gif'])
-GOOGLE_API_KEY = 'AIzaSyCh99R3Y1hnPZ-oP2dxqrnfZgGiZuRuVf0'
-# GOOGLE_API_KEY = os.environ.get('AIzaSyCh99R3Y1hnPZ-oP2dxqrnfZgGiZuRuVf0')
-# DIALOGFLOW_CLIENT_ACCESS_TOKEN = os.environ.get(
-#     'DIALOGFLOW_CLIENT_ACCESS_TOKEN')
-# ai = apiai.ApiAI(DIALOGFLOW_CLIENT_ACCESS_TOKEN)
+GOOGLE_API_KEY = ''
+
 
 config = configparser.ConfigParser()
 config.read('config.ini')
